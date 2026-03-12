@@ -15,7 +15,7 @@ from telegram.ext import (
 # =========================
 # TOKEN ИЗ ENV
 # =========================
-TOKEN = os.getenv("TOKEN")
+TOKEN = "1474765365:AAFzMnm3lukjhVRye4RgPF0rjdHwd433iuM"
 
 if not TOKEN:
     raise RuntimeError("TOKEN не найден в переменных окружения")
